@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-div{
+    background-image: url(images/backcover.svg);
+    position: absolute; 
+     background-position: 620px;
+    background-repeat: no-repeat;
+     height: 100vh;
+    width: 100vw;
+     
+}
+
+
+.navbar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+
+}
+.nav-items{
+    
+     display: flex;
+     justify-content: space-evenly;
+     font-family:"Roboto display" ;
+     font-size: 15px;
+     color:#4e4b92 ;
+}
+.nav-item{
+   margin-left: 50px;
+   color: #1f2873;
+   font-family:"Roboto display" ;
+   font-size: 15px;
+}
+.signin-btn{
+     border: 0;
+     background-color:#d879e4 ;
+    padding: 5px;
+    margin-right: 150px;
+    color: #fcfafe;
+    font-family: "Roboto display";
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.left-section {
+     display: flex;
+     flex-direction: column;
+     width: 60%;
+
+}
+
+h1{
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 90px;
+    font-family: "Roboto display";
+    color:#3e4794;
+}
+h4{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: "Roboto display";
+    color:#a7a9bc;
+    font-size: 25px;
+}
+.learn-more-btn{
+    
+
+     border: 0;
+     background-color: #d879e4;
+     padding-top: 15px;
+     padding-bottom:  15px; ;
+     margin-right: 700px;
+     margin-left: 50px;
+     margin-top: 20px;
+     color: #fcfafe;
+     font-family:"Roboto display" ;
+     font-size: 15px;
+     border-radius: 20px;
+
+
+}
+
+.imgs-div{
+    position: absolute;
+    top: 125px;
+    right: 80px;
+    display: flex; 
+
+}
+
+
+.vector-img{
+    position: absolute;
+    right: 820px;
+    top:380px;
+}
+
+
